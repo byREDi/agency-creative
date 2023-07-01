@@ -11,7 +11,7 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-.container {
+.container-nav {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,7 +98,6 @@ body {
 
 /* ------------------------------------------------------------------------- */
 .circle {
-    position: static;
 	border-radius: 50%;
 	padding: 13px;
 }
@@ -245,4 +244,57 @@ body {
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
     letter-spacing: 0.2px;
+}
+
+.people-content{
+    position: relative;
+    background-color: #FFF;
+    width: 166px;
+    height: 166px;
+    left: 400px;
+    bottom: 235px;
+    padding: 25px;
+    z-index: 2;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px #05050580;
+}
+
+.perfil-people{
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil-people h3{
+    color: #1D1D1D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+}
+
+.perfil-people p{
+    color: #1D1D1D;
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 0.06px;
+}
+
+.img-people{
+    float: left;
+    margin-right: 3.5px;
+}
+
+.people-coment{
+    display: flex;
+    width: 125px;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.people-coment p{
+    color: #1D1D1D;
+    font-size: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1px;
 }
