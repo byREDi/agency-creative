@@ -188,17 +188,17 @@ body {
     background-color: #508bfa;
 }
 
-.img-primary{
+.img-primary {
     position: relative;
     z-index: 1;
 }
 
-.img-effect{
+.img-effect {
     display: flex;
     position: static;
 }
 
-.effect-red-position-1{
+.effect-red-position-1 {
     position: relative;
     bottom: 55px;
     left: 160px;
@@ -206,13 +206,13 @@ body {
     /* z-index: 1; */
 }
 
-.effect-blue-position-1{
+.effect-blue-position-1 {
     position: relative;
     top: 52px;
     left: 150px;
 }
 
-.g-project{
+.g-project {
     display: inline;
     position: relative;
     background-color: #FFF;
@@ -226,7 +226,7 @@ body {
     z-index: 2;
 }
 
-#img-g-project{
+#img-g-project {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -237,7 +237,7 @@ body {
     text-transform: uppercase;
 }
 
-#content-g-project{
+#content-g-project {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -246,7 +246,7 @@ body {
     letter-spacing: 0.2px;
 }
 
-.people-content{
+.people-content {
     position: relative;
     background-color: #FFF;
     width: 166px;
@@ -259,12 +259,12 @@ body {
     box-shadow: 0px 4px 8px 0px #05050580;
 }
 
-.perfil-people{
+.perfil-people {
     display: flex;
     flex-direction: column;
 }
 
-.perfil-people h3{
+.perfil-people h3 {
     color: #1D1D1D;
     font-size: 12px;
     font-style: normal;
@@ -272,29 +272,78 @@ body {
     letter-spacing: 0.1px;
 }
 
-.perfil-people p{
+.perfil-people p {
     color: #1D1D1D;
     font-size: 8px;
     font-weight: 600;
     letter-spacing: 0.06px;
 }
 
-.img-people{
+.img-people {
     float: left;
     margin-right: 3.5px;
 }
 
-.people-coment{
+.people-coment {
     display: flex;
     width: 125px;
     flex-direction: column;
     margin-top: 20px;
 }
 
-.people-coment p{
+.people-coment p {
     color: #1D1D1D;
     font-size: 10px;
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     letter-spacing: 0.1px;
+}
+
+.container-terc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.cont-terc-txt1 h3 {
+    color: #377DFF;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+}
+
+.cont-terc-txt1 h2 {
+    color: #1D1D1D;
+    font-size: 45px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.content-teammate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* background-color: red; */
+}
+
+.content-teammate-txt{
+    display: flex;
+    flex-direction: column;
+    width: 610px;
+    padding: 60px;
+    /* background-color: blue; */
+}
+
+.content-teammate-txt p {
+    margin-bottom: 25px;
+}
+
+.btn-teammete{
+    display: flex;
 }
