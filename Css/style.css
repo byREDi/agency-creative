@@ -96,7 +96,8 @@ body {
     margin-top: 6%;
 }
 
-/* ------------------------------------------------------------------------- */
+/* Efeitos de circulos com position relative */
+
 .circle {
 	border-radius: 50%;
 	padding: 13px;
@@ -137,7 +138,7 @@ body {
     right: 400px;
     top: 350px;
 }
-/* ------------------------------------------------------------------------- */
+/* Fim dos efeitos de circulos */
 
 .txt-primary {
     color: #1D1D1D;
@@ -184,7 +185,6 @@ body {
 }
 
 .btn-startp:hover {
-    color: #000202;
     background-color: #508bfa;
 }
 
@@ -198,11 +198,12 @@ body {
     position: static;
 }
 
+/* Efeitos de imagens pontilhados */
+
 .effect-red-position-1 {
     position: relative;
     bottom: 55px;
     left: 160px;
-    overflow: hidden;
     /* z-index: 1; */
 }
 
@@ -211,6 +212,20 @@ body {
     top: 52px;
     left: 150px;
 }
+
+.effect-red-position-2{
+    position: relative;
+    top: 55px;
+    right: 30px;
+}
+
+.effect-purple-position-1{
+    position: relative;
+    left: 495px;
+    bottom: 60px;
+}
+
+/* Fim dos efeitos de imagens  */
 
 .g-project {
     display: inline;
@@ -304,7 +319,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 1%;
+    margin-top: -70px;
 }
 
 .cont-terc-txt1 h3 {
@@ -328,7 +343,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
+    margin-top: -50px;
     /* background-color: red; */
 }
 
@@ -342,8 +358,48 @@ body {
 
 .content-teammate-txt p {
     margin-bottom: 25px;
+    line-height: 26px;
 }
 
-.btn-teammete{
+.btn-container-terc{
     display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.btn-aboutus{
+    display: inline-flex;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    padding: 10px 45px 10px 45px;
+    border-radius: 20px;
+    background-color: #377DFF;
+    transition: 0.2s;
+    margin-right: 20px;
+}
+
+.btn-aboutus:hover{
+    background-color: #508bfa;
+}
+
+.btn-ourstory{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #377DFF;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    padding: 5px 40px 5px 40px;
+    border-radius: 20px;
+    border: 1px solid #377DFF;
+    transition: 0.2s;
+}
+
+.btn-ourstory:hover{
+    background-color: #f1efff;
 }
