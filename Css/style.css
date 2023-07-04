@@ -225,6 +225,22 @@ body{
     bottom: 60px;
 }
 
+.effect-purple-position-2{
+    position: relative;
+    left: 490px;
+    bottom: 60px;
+    width: 80px;
+    transform: rotate(-25deg);
+}
+
+.effect-purple-position-3{
+    position: relative;
+    right: 163px;
+    top: 60px;
+    width: 80px;
+    transform: rotate(18deg);
+}
+
 /* Fim dos efeitos de imagens  */
 
 .g-project{
@@ -521,4 +537,61 @@ body{
 }
 .card-img-backcolor-4{
     background-color: #FFA800;
+}
+
+.container-quinto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-quinto-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.cont-quinto-txt h4{
+    color: #377DFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+}
+
+.cont-quinto-txt h2{
+    color: #1D1D1D;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 20px;
+}
+
+.cont-quinto-txt p{
+    display: flex;
+    width: 615px;
+    height: 65px;
+    color: #464646;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+
+.content-quinto-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+
+.container-quinto img:hover{
+    box-shadow: 0px 22px 24px 0px #b8b7b780;
+    border-radius: 24px;
 }
