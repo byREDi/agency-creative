@@ -312,7 +312,7 @@ body{
 
 .img-people{
     float: left;
-    margin-right: 3.5px;
+    margin-right: 8px;
 }
 
 .people-coment{
@@ -591,7 +591,58 @@ body{
     margin-top: -80px;
 }
 
-.container-quinto img:hover{
-    box-shadow: 0px 22px 24px 0px #b8b7b780;
+.btn-portfolio{
+    border: 1px solid #377DFF;
     border-radius: 24px;
+    padding: 8px 40px 8px 40px;
+    margin-top: 25px;
+}
+
+.btn-portfolio:hover{
+    background-color: #f4f3f8;
+}
+
+.btn-portfolio a{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #377DFF;
+    text-decoration: none;
+}
+
+.cards-peopletalk{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.card-people{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 290px;
+    border-radius: 24px;
+    box-shadow: 0px 2px 8px 0px #b8b7b780;
+    background-color: beige;
+}
+
+.img-people-talk{
+    display: flex;
+    float: left;
+}
+
+.perfil-people-talk{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    background-color: red;
+}
+
+.people-talk{
+    display: flex;
 }
